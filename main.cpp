@@ -105,6 +105,7 @@ int main( int _argc, char** _argv )
     string dstPointsFolder = _argv[3];
     int i = 1;
     while (i <= 6) {
+        int temp = i;
         string imageFileName = imageFolder + "/" + to_string(i) + ".jpg";
         inputImg = imread(imageFileName);
         draw_points(inputImg,i);
@@ -142,6 +143,8 @@ int main( int _argc, char** _argv )
         double elapsed_secs = double(end - begin) / CLOCKS_PER_SEC;
         printf("Time taken for IPM transformation for image %d: %.2f (seconds)\n", i, elapsed_secs);
         draw_points(outputImg,i);
+        if(temp == i)
+            continue;
         string output_IPM = "IPM/" + to_string(i-1) + ".jpg";
         imwrite(output_IPM, outputImg);
         cout << "Output IPM saved as: " << output_IPM << endl;

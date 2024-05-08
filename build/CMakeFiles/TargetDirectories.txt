@@ -1,0 +1,3 @@
+C:/Users/efe/OneDrive/Desktop/Demo/Car-Parkingv2/build/CMakeFiles/car-parking.dir
+C:/Users/efe/OneDrive/Desktop/Demo/Car-Parkingv2/build/CMakeFiles/ALL_BUILD.dir
+C:/Users/efe/OneDrive/Desktop/Demo/Car-Parkingv2/build/CMakeFiles/ZERO_CHECK.dir

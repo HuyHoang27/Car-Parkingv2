@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\Users\efe\OneDrive\Desktop\Demo\Car-Parkingv2\main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\efe\OneDrive\Desktop\Demo\Car-Parkingv2\IPM.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\efe\OneDrive\Desktop\Demo\Car-Parkingv2\ImageProcessor.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="C:\Users\efe\OneDrive\Desktop\Demo\Car-Parkingv2\IPM.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\efe\OneDrive\Desktop\Demo\Car-Parkingv2\ImageProcessor.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\efe\OneDrive\Desktop\Demo\Car-Parkingv2\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{36866E8A-3A8C-3F96-B71A-32E9BE2DA531}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{1DC86E42-4522-3922-B868-B71E1206D183}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

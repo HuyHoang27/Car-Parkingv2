@@ -1,0 +1,10 @@
+^C:\USERS\EFE\ONEDRIVE\DESKTOP\DEMO\CAR-PARKINGV2\CMAKELISTS.TXT
+setlocal
+D:\python3.9\Lib\site-packages\cmake\data\bin\cmake.exe -SC:/Users/efe/OneDrive/Desktop/Demo/Car-Parkingv2 -BC:/Users/efe/OneDrive/Desktop/Demo/Car-Parkingv2/build --check-stamp-file C:/Users/efe/OneDrive/Desktop/Demo/Car-Parkingv2/build/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
